@@ -1,4 +1,4 @@
-# __MapReduce__
+# __Mapper-Reducer__
 This Readme gives a brief overview of the problem, the files included and instructions to run the program
 * Author : Prudhvee Narasimha Sadha
 * Email  : prudhvee.sadha@ufl.edu
@@ -11,11 +11,11 @@ This Readme gives a brief overview of the problem, the files included and instru
 * __input.txt__ - List of tuples that are input to the Mapper.
 --------------------
 ### __III. How to run the Combiner__
-* Open the submitted folder in the terminal.
+* Open the folder in the terminal.
 * run 'make' - to compile all the files and generate the executables.
-* To execute the Mapper run './mapper.out <path_to_input_file>'
-* To execute the Reducer run './reducer.out'. Reduce takes tuples one by one from STDIN and also detects EOF signal to stop processing the tuples.
-* To execute the Combiner run './combiner.out <path_to_input_file>'. 
+* To execute the Mapper run __'./mapper.out <path_to_input_file>'__
+* To execute the Reducer run __'./reducer.out'__. Reduce takes tuples one by one from STDIN and also detects EOF signal to stop processing the tuples.
+* To execute the Combiner run __'./combiner.out <path_to_input_file>'__. 
 --------------------
 ### __IV. Outputs:__
 The Reduced tuples are displayed on the standard output.
